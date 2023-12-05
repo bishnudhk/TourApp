@@ -1,13 +1,20 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+// import "./index.css";
+import "./indexTour.css";
+// import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import Apps from "./Apps";
+import TourApp from "./TourApp";
+import FlashProj from "./FlashProj";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Apps /> */}
+    <TourApp />
+    {/* <FlashProj /> */}
   </React.StrictMode>
 );
 
